@@ -1,0 +1,74 @@
+.indexJumbo{
+    text-align: center;
+    background-color: white;
+}
+.aboutJumbo{
+    text-align: center;
+    background-color: white;
+}
+
+ .indexnav{
+    color: red;
+} 
+
+.menu-item{
+    background-color: white;
+    color: red;
+}
+
+.indexnav:hover{
+color: white;
+}
+
+.menu-item:hover{
+    background-color: red;
+    color: white;
+}
+
+.parallax {
+    background-image: url(Assets/two_men_fighting_bw.jpg);
+    background-size: 100px;
+    height: 400px;
+    margin: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card img{
+    height: auto;
+    width: auto;
+}
+
+.card .card-img-top{
+    height: 100px;
+    width: 100px;
+}
+.card {
+    align-items: center;
+    min-height: 300px;
+}
+
+#card_row_1{
+    padding-top: 2%;
+}
+/* .holders{
+    width: 80%;
+    height: 30%;
+    margin: auto;
+} */
+/* 
+ .imageHolder{
+    height: 250px;
+    width: 200px;
+    
+} */
+
+/*
+.imageHolder img{
+    width: auto;
+    height: auto;
+}
+*/
