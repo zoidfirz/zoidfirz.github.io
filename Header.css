@@ -1,0 +1,44 @@
+.indexJumbo{
+    text-align: center;
+    background-color: white;
+}
+.headerJumbo{
+    text-align: center;
+    background-color: white;
+}
+
+.jumbotron{
+    margin: auto;
+}
+
+.menu-item{
+    background-color: white;
+    color: red;
+}
+
+.display-3{
+    color: black;
+    text-decoration: none;
+}
+.display-3:hover{
+    text-decoration: none;
+    color: black;
+font-weight: 300;
+}
+
+.menu-item:hover{
+    background-color: red;
+    color: white;
+
+}
+
+.aboutnav {
+    background-color: white;
+    color: red;
+}
+
+.aboutnav:hover{
+    background-color: red;
+    color: white;
+}
+

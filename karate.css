@@ -1,0 +1,34 @@
+section{
+    width: 80%;
+    margin: auto;
+}
+
+.karate-jumbo h1{
+text-align: center;
+margin: auto;
+color: white;
+
+}
+
+.karate-jumbo h1:hover{
+    color: white;
+}
+.karate-jumbo{
+    background-image: url(Assets/two_men_fighting_bw.jpg);
+    padding-bottom: 40px;
+}
+
+body{
+    width: 80%;
+    margin: auto;
+}
+
+h3{
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.adult-karate h1{
+    align-content: left;
+}

@@ -37,6 +37,10 @@ color: white;
 
 }
 
+.row {
+    margin: auto;
+}
+
 .card img{
     height: auto;
     width: auto;
@@ -49,11 +53,29 @@ color: white;
 .card {
     align-items: center;
     min-height: 300px;
+    max-height: 300px;
 }
 
 #card_row_1{
     padding-top: 2%;
 }
+
+.card-img-top {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin: auto;
+    
+}
+
+
+
 /* .holders{
     width: 80%;
     height: 30%;
