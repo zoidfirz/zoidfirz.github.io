@@ -32,11 +32,15 @@ font-weight: 300;
 
 }
 
-.aboutnav {
+.indexnav {
     background-color: white;
     color: red;
 }
 
+.indexnav:hover{
+    background-color: red;
+    color: white;
+    }
 .aboutnav:hover{
     background-color: red;
     color: white;
