@@ -41,39 +41,19 @@ color: white;
     margin: auto;
 }
 
-.card img{
-    height: auto;
-    width: auto;
-}
-
-.card .card-img-top{
-    height: 100px;
-    width: 100px;
-}
-.card {
+.
+/* .card {
     align-items: center;
     min-height: 300px;
     max-height: 300px;
-}
+} */
 
-#card_row_1{
-    padding-top: 2%;
-}
 
-.card-img-top {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-}
 
-.img-fluid{
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
-    margin: auto;
-    
+h5{
+    text-align: center;
+    margin: 0;
 }
-
 
 
 /* .holders{
