@@ -8,27 +8,24 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+        <link rel="stylesheet" href="Header.css">
 
-    <link rel="stylesheet" href="Header.css">
-    <link rel="stylesheet" href="schedule.css">
-  
+
+    <title>Hello, world!</title>
   </head>
   <body>
-       
-
-
-        <div class="jumbotron headerJumbo">
+    <div class="jumbotron headerJumbo">
                 <a href="index.html"
                     <h1 class="display-3">RONIN DOJO</h1>
                     <div><img src="Assets/japaneseDemoImage.png" alt="Error! This service is temporatily out of service"></div>
                     <hr class="my-2">
                     <ul class="nav justify-content-center">
                             <li class="nav-item menu-item">
-                              <a class="nav-link indexnav" id = "currentPage" href="schedule.html"> Class Schedule</a>
+                              <a class="nav-link indexnav" href="schedule.html"> Class Schedule</a>
                             </li>
                         
                             <li class="nav-item menu-item">
-                              <a class="nav-link indexnav" href="comingsoon.html">Tournament Information</a>
+                              <a class="nav-link indexnav" href="tournaments.html">Tournament Information</a>
                             </li>
                   
                            
@@ -39,7 +36,7 @@
                                 </li>
                   
                                 <li class="nav-item menu-item">
-                                    <a class="nav-link indexnav" href="About.html">Foundation</a>
+                                    <a class="nav-link indexnav" href="Foundation.html">Foundation</a>
                                   </li>
                           </ul>
                     <hr>
@@ -47,11 +44,6 @@
                 </div>
 
 
-                <div class="container">
-                    <div>
-                        <img src="Assets/schedule.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
-                    </div>
-                </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
