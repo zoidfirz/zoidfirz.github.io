@@ -1,0 +1,18 @@
+.gallery{
+    margin: auto;
+}
+body{
+    background-color: rebeccapurple;
+}
+.gallery a img{
+    width: 200px;
+    padding: 20px;
+    filter: grayscale(100%);
+}
+
+gallery a img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+
+}
+

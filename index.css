@@ -20,6 +20,9 @@
 color: white;
 }
 
+.card-body{
+    justify-content: center;
+}
 .menu-item:hover{
     background-color: red;
     color: white;
@@ -40,6 +43,7 @@ color: white;
 .row {
     margin: auto;
 }
+
 
 @media screen and (min-width: 600px) {
     .jumbotron .indexJumbo{
