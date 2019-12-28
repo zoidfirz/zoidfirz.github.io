@@ -1,6 +1,12 @@
 .indexJumbo{
     text-align: center;
     background-color: white;
+    margin: auto;
+    width: 80%;
+}
+
+hr{
+    width: 80%;
 }
 .aboutJumbo{
     text-align: center;
