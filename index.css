@@ -1,3 +1,8 @@
+
+body{
+   
+    margin: auto;
+}
 .indexJumbo{
     text-align: center;
     background-color: white;
@@ -35,7 +40,9 @@ color: white;
 }
 
 .parallax {
-    background-image: url(Assets/two_men_fighting_bw.jpg);
+    /* background-image: url(Assets/two_men_fighting_bw.jpg); */
+    background-image: url(Assets/kids/that-kick-right-there.jpg);
+
     background-size: 100px;
     height: 400px;
     margin: auto;
@@ -48,8 +55,21 @@ color: white;
 
 .row {
     margin: auto;
+   
 }
 
+
+
+
+.card-body{
+ /* background-color: rebeccapurple; */
+ text-align: center;
+}
+
+.card-body p {
+    text-align: left;
+}
+   
 
 @media screen and (min-width: 600px) {
     .jumbotron .indexJumbo{
@@ -57,3 +77,44 @@ color: white;
     }
 }
 
+#news{
+    margin: auto;
+}
+
+
+
+.title-span{
+font-weight: bold;
+font-size: large;
+text-transform: uppercase;
+text-decoration: underline;
+}
+
+.date-span{
+font-size: smaller;
+text-transform: lowercase;
+font-style: italic;
+
+
+}
+
+.news-and-events {
+    width: 80%;
+    margin: auto;
+   
+}
+
+.news-image{
+    width: 250px;
+    height: auto;
+}
+
+.map-flyer img{
+    float: left;
+
+
+}
+
+.map-flyer iframe{
+    float: right;
+}
