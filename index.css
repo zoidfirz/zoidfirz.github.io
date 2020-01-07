@@ -105,7 +105,7 @@ font-style: italic;
 }
 
 .news-image{
-    width: 250px;
+    max-width: 350px;
     height: auto;
 }
 
@@ -118,3 +118,8 @@ font-style: italic;
 .map-flyer iframe{
     float: right;
 }
+
+#footer-nav{
+    float: left;
+}
+
