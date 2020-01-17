@@ -40,14 +40,18 @@ color: white;
 }
 
 .parallax {
+    /* top: -100px;
+    padding-bottom: 100px; */
     /* background-image: url(Assets/two_men_fighting_bw.jpg); */
     background-image: url(Assets/kids/that-kick-right-there.jpg);
-
     background-size: 100px;
-    height: 400px;
+    height: 300px;
     margin: auto;
     background-attachment: fixed;
-    background-position: center;
+
+    /* background-position: center; */
+    background-position: center top 20px ;
+
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -122,4 +126,9 @@ font-style: italic;
 #footer-nav{
     float: left;
 }
+
+
+
+
+
 
