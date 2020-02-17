@@ -30,31 +30,10 @@ function getCurrentPageNumber() {
 
 
 
-function addimage(element){
-    $("#genGallery").append("<div class='col-lg-3 col-sm-6 col-md-6 col-xs-12 imagecell'> <a href='"+element.fullSizeHref+"' data-lightbox='Gallery'><img src='"+element.thumbNailSrc+"' class='img-thumbnail img-fluid' alt='karate image'></a></div>");
-};
 
 
-function addKarateGen(){
-    for (let i = 1; i < 24; i++) {
-        const element = "karategen-"+i;
-        const image = new myImage(element);
 
-        addimage(image);
-    };
-};
 
-function addOkinawa() {
-    for (let i = 20; i < 49; i++) {
-        const element = "Okinawa-"+i;
-        var image = new myImage(element);
-        image.fullSizeHref ="../Assets/GalleryPhotos/Tournament/okinawa/"+element+".jpg";
-        image.thumbNailSrc = "../Assets/GalleryPhotos/Tournament/okinawa/thumbnails/"+element+"-thumb.jpg";
-
-        addimage(image)
-    }
-
-}
 
 function laPuppetTournament2019(_pageNumber){
     if(_pageNumber !== 0) {
@@ -109,8 +88,7 @@ function splicelaPuppetPhotGallery() {
 
 splicelaPuppetPhotGallery()
 laPuppetTournament2019(currentPageNumber);
-addKarateGen();
-addOkinawa();
+
 galleryFooter();
 getCurrentPageNumber();
 
