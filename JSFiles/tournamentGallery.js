@@ -1,5 +1,5 @@
 var currentPageNumber = 0
-var imageArrays = [];
+var laPuppet2019ImageArray = [];
 var tempArray = [];
 
 
@@ -29,22 +29,16 @@ function getCurrentPageNumber() {
 };
 
 
-
-
-
-
-
-
 function laPuppetTournament2019(_pageNumber){
     if(_pageNumber !== 0) {
         const pn = parseInt(_pageNumber) - 1
-        var imageArrayBeingUsed = imageArrays[pn]
+        var imageArrayBeingUsed = laPuppet2019ImageArray[pn]
         for (let i = 0; i < imageArrayBeingUsed.length; i++) {
             addlaPuppetTournamentimage(imageArrayBeingUsed[i])
             console.log(imageArrayBeingUsed[i])
         }
     }else {
-        var imageArrayBeingUsed = imageArrays[0]
+        var imageArrayBeingUsed = laPuppet2019ImageArray[0]
         for (let i = 0; i < imageArrayBeingUsed.length; i++) {
 
             addlaPuppetTournamentimage(imageArrayBeingUsed[i])
@@ -62,7 +56,7 @@ function addlaPuppetTournamentimage(element){
 function galleryFooter(){
     var navLinkClass = ""
     var selectedPageNumber
-    for (let i = 0; i < imageArrays.length; i++) {
+    for (let i = 0; i < laPuppet2019ImageArray.length; i++) {
         $("#laPuppet2019tournamentGalleryFooter").append("<li class='nav-item' id='num"+i+1+"'> <a class='nav-link footer-nav' href='#'>"+(i+1)+"</a>")
 
     }
@@ -81,7 +75,7 @@ function splicelaPuppetPhotGallery() {
     }
 
     while (tempArray.length > 0){
-        imageArrays.push(tempArray.splice(0,50));
+        laPuppet2019ImageArray.push(tempArray.splice(0,50));
     }
 
 }
