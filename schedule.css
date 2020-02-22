@@ -16,3 +16,23 @@ hr{
     text-align: center;
     background-color: white;
 }
+
+.footerNav{
+
+}
+
+.footerNav{
+
+
+}
+
+
+#footerList{
+    list-style-type: none;
+}
+
+#footerList li {
+    float:left;
+    padding: 10px;
+    display: block;
+}

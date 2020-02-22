@@ -57,6 +57,7 @@ function addKarateGen(){
         const element = "karategen-"+i;
         const image = new myImage(element);
 
+
         addimage(image);
     };
 
