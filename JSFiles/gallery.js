@@ -7,7 +7,7 @@ var okinawaPhotoArray = []
 //+1 to actual photocount.. it is used in for loop logic
 const okinawaPhotoCount = 40;
 const bootcampPhotoCount = 24;
-const generalKaratePhotoCount = 24;
+const generalKaratePhotoCount = 25;
 const promotion_2017_PhotoCount = 34;
 const fikaTouramentPhotoCount = 9;
 
@@ -64,7 +64,7 @@ function addKarateGen(){
     for (let i = 1; i < promotion_2017_PhotoCount; i++) {
         const element = "2017promotion-"+i;
         let image = new myImage(element);
-        image.thumbNailSrc = image.fullSizeHref
+        image.thumbNailSrc = image.fullSizeHref;
 
         addimage(image);
     };
