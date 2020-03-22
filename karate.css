@@ -29,6 +29,14 @@ h3{
     text-align: center;
 }
 
-.adult-karate h1{
-    align-content: left;
+/*.adult-karate h1{*/
+/*    text-align: left;*/
+
+/*}*/
+
+
+.type {
+    text-align: center;
+    padding-bottom: 5rem;
 }
+
