@@ -1,13 +1,13 @@
 
-var bootCampImageArray = []
-var generalPhotoArray = []
-var okinawaPhotoArray = []
+var bootCampImageArray = [];
+var generalPhotoArray = [];
+var okinawaPhotoArray = [];
 
 
 //+1 to actual photocount.. it is used in for loop logic
 const okinawaPhotoCount = 40;
 const bootcampPhotoCount = 24;
-const generalKaratePhotoCount = 25;
+const generalKaratePhotoCount = 24;
 const promotion_2017_PhotoCount = 34;
 const fikaTouramentPhotoCount = 9;
 
