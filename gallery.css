@@ -93,4 +93,9 @@ list-style-type:none;
 #footer {
     padding-top: 2rem;
 }
- 
+
+#gallery-side-menu{
+    position: relative;
+    top: 54px;
+
+}
