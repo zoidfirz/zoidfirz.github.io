@@ -59,4 +59,9 @@ body{
     color: black;
     text-decoration: none;
     cursor: pointer;
-} 
+}
+
+#tournament-schedule-side-menu{
+    position: relative;
+    top: 71px;
+}
