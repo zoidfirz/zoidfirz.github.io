@@ -1,0 +1,104 @@
+
+
+#small-screen-header{
+    display: none;
+}
+
+
+@media screen and (min-width: 600px) {
+    .jumbotron .indexJumbo{
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width: 801px) {
+    #small-screen-header{
+        display: inline-block;
+    }
+    #business-header{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    #small-screen-header{
+        font-size: 28px;
+    }
+}
+
+
+
+#header-jumbotron{
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    width: 80%;
+}
+
+
+.indexnav{
+    color: red;
+} 
+
+
+.jumbotron{
+    margin: auto;
+}
+
+
+.headerJumbo{
+    text-align: center;
+    background-color: white;
+}
+
+
+.display-3{
+    color: black;
+    text-decoration: none;
+}
+.display-3:hover{
+    text-decoration: none;
+    color: black;
+font-weight: 300;
+}
+
+
+
+
+.indexJumbo{
+    text-align: center;
+    background-color: white;
+    margin: auto;
+    width: 80%;
+}
+
+.menu-item{
+    background-color: white;
+    color: red;
+}
+.menu-item:hover{
+    background-color: red;
+    color: white;
+}
+
+.indexnav {
+    background-color: white;
+    color: red;
+}
+
+.indexnav:hover{
+    background-color: red;
+    color: white;
+    }
+.aboutnav:hover{
+    background-color: red;
+    color: white;
+}
+
+
+#current-page{
+    background-color: red;
+    color: white;
+}

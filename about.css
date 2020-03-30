@@ -1,13 +1,13 @@
 section{
     text-align: center;
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
 }
 
 
 body{
 margin: auto;
-    width: 80%;
+   
 }
 
 .indexJumbo{
@@ -58,3 +58,19 @@ font-weight: 300;
 .instructor-profile{
     padding-bottom: 40px;
 }
+
+ 
+@media screen and (max-width: 700px) {
+    .item-hide-on-small-screen{
+        display: none;
+    }
+
+} 
+
+ 
+@media screen and (min-width: 700px) {
+    .item-hide-on-large-screen{
+        display: none;
+    }
+
+} 

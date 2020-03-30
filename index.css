@@ -1,28 +1,17 @@
-#small-screen-header{
-    display: none;
-}
 body{
-   
     margin: auto;
 }
-.indexJumbo{
-    text-align: center;
-    background-color: white;
-    margin: auto;
-    width: 80%;
-}
+
 
 hr{
     width: 80%;
 }
-.aboutJumbo{
+/* .aboutJumbo{
     text-align: center;
     background-color: white;
-}
+} */
 
- .indexnav{
-    color: red;
-} 
+
 
 .menu-item{
     background-color: white;
@@ -35,10 +24,6 @@ color: white;
 
 .card-body{
     justify-content: center;
-}
-.menu-item:hover{
-    background-color: red;
-    color: white;
 }
 
 .parallax {
@@ -76,29 +61,6 @@ color: white;
     text-align: left;
 }
    
-
-@media screen and (min-width: 600px) {
-    .jumbotron .indexJumbo{
-        display: none !important;
-    }
-
-}
-
-@media screen and (max-width: 801px) {
-    #small-screen-header{
-        display: inline-block;
-    }
-    #business-header{
-        display: none;
-    }
-
-}
-
-@media screen and (max-width: 768px){
-    #small-screen-header{
-        font-size: 28px;
-    }
-}
 
 #news{
     margin: auto;

@@ -1,3 +1,7 @@
+
+body{
+    margin: auto;
+}
 .container{
     margin: auto;
    
@@ -9,11 +13,6 @@
     font-size: 25px;
     padding-bottom: 20px;
 }
-body{
-    width: 80%;
-    margin: auto;
-}
-
 
 
 .content{
@@ -65,3 +64,25 @@ body{
     position: relative;
     top: 71px;
 }
+
+
+
+/* #tournament-schedule-side-menu{
+    display: none;
+} */
+
+ 
+@media screen and (min-width: 600px) {
+    .item-display-on-small-screen{
+        display: none;
+    }
+
+} 
+
+ 
+@media screen and (max-width: 600px) {
+    .item-hide-on-small-screen{
+        display: none;
+    }
+
+} 
